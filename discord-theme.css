@@ -1,0 +1,122 @@
+:root {
+    --main-bg-color: #222;
+    --main-sec-color: #2b2b2b;
+    --guild-column-count: 1;
+	--public-button-in-use: 0;
+}
+
+/* auto-hide channel wrapper */
+
+.channels-wrap {
+	width: 10px !important;        
+	transition: width 0.2s !important;
+	-webkit-transition-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1) !important;
+	transition-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1) !important;
+    }
+
+.channels-wrap:hover {
+	width: 240px !important;
+    }
+
+
+/* set background and highlight colors of elements */
+
+.guilds-wrapper {
+  background-color: var(--main-bg-color);
+}
+
+.scroller {
+    background-color: var(--main-bg-color);
+}
+
+.title-wrap {
+    background-color: var(--main-bg-color);
+}
+
+.scroller-fzNley {
+    background-color: var(--main-sec-color);
+}
+
+.header-1tSljs {
+    background-color: var(--main-sec-color);
+}
+
+.container-iksrDt {
+    background-color: var(--main-sec-color);
+}
+
+.flex-spacer {
+    background-color: var(--main-bg-color);
+}
+
+.channel-members
+{
+  background: var(--main-bg-color) !important;
+}
+
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb
+{
+  background-color: var(--main-sec-color) !important;
+  border: 3px solid rgba(211,5,5,0) !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece
+{
+  background-color: var(--main-bg-color) !important;
+  border: 3px solid rgba(211,5,5,0) !important;
+}
+
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+  background: var(--main-bg-color) !important;
+  color: rgba(255,255,255,0.7) !important;
+  padding: 0.3em 0.6em;
+}
+
+
+/* Set channel list to bottom */
+.guilds-wrapper {
+  position: absolute;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  height: 100vw;
+}
+.guilds-wrapper ~ div {
+  height: calc(100% - var(--guild-column-count) * 70px + (var(--guild-column-count) - 1) * 15px);
+}
+.guilds .guild:not(#bd-pub-li) .guild-inner:first-child, .badge, .guild.guilds-add {
+  transform: rotate(90deg);
+}
+.guilds-wrapper .guilds > .guild:first-child {
+  margin-top: calc(12px * var(--public-button-in-use));
+}
+.dms {
+  padding-top: calc(7px * (var(--guild-column-count) - 1) / (var(--guild-column-count) - 1));
+  margin-left: -8px;
+  padding-left: calc(8px * (var(--guild-column-count) - 1) / (var(--guild-column-count) - 1));
+}
+.dms .guild {
+  display: inline-block;
+}
+.app .guilds-wrapper .guilds .dms .guild {
+  margin: 8px 0 0 8px;
+}
+.app .guilds-wrapper .guilds .friends-online {
+  margin: 0;
+  line-height: 0;
+  transform-origin: 50% -25px;
+  transform: rotate(90deg) translateY(calc(5px * (var(--guild-column-count) - 1) + 5px));
+}
+.app #bd-pub-li {
+  text-transform: uppercase;
+  position: absolute;
+  top: 5px;
+  margin: 0 auto;
+  left: calc((var(--guild-column-count) * 70px - (var(--guild-column-count) - 1) * 15px) / 2 - 25px)
+}
+
+#files_directDownload {
+  bottom: calc(var(--guild-column-count) * 70px - (var(--guild-column-count) - 1) * 15px);
+  left: 240px;
+  width: calc(100% - 240px - 240px);
+}
