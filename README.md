@@ -2,5 +2,5 @@
 
 A basic Discord theme.
 
-![alt text](https://i.imgur.com/KkuBzLx.gif)
+![alt text](http://i.imgur.com/6MUCJy9.png)
 
