@@ -68,6 +68,7 @@
 
 
 /* Set channel list to bottom */
+
 .guilds-wrapper {
   position: absolute;
   transform: rotate(-90deg) translateX(-100vh) translateY(25vh);
@@ -217,6 +218,7 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
 
 
 /* status picker */
+
 .popout.popout-top {
 	box-shadow: none;
 }
@@ -235,7 +237,6 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
 
 
 /* User Popout */
-
 
 .user-popout .body, .user-popout .footer, .user-popout .header {
 	background: #222;
