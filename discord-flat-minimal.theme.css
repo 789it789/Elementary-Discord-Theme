@@ -21,6 +21,9 @@
     }
 
 
+.container-iksrDt{
+}
+
 /* set background and highlight colors of elements .container-iksrDt*/
 
 .tooltip {
@@ -28,14 +31,34 @@
     color: #FFFFFF;
 }
 
+.headerNormal-1cioxU {
+    background: rgb(34,34,34) !important;
+}
+
+#user-profile-modal .header:after {
+    background-color: #222222;
+    background-image: none;
+}
+
+.typing, .guilds, .scroller, .section, .scrollbarGhostHairline-D_btXm, .scrollbar-11WJwo, .section-header,.add-friend, .actions, .header-info, .avatar-wrapper, .tab-bar-container, .tab-bar, .connected-accounts, .body-3rkFrF, .footer-2J5zqP, .quick-message, .quickMessage-28pD5Y, .marginBottom8-1mABJ4{
+    background: rgb(34,34,34) !important;
+}
+
+
+.flex-lFgbSz, .flex-3B1Tl4, .horizontal-2BEEBe, .horizontal-2VE-Fw, .flex-3B1Tl4,d.irectionRow-yNbSvJ, .justifyStart-2yIZo0, .alignStretch-1hwxMa, .noWrap-v6g9vO{
+    background: rgb(34,34,34) !important;
+}
 
 .guilds-wrapper, .scroller, .title-wrap, .flex-spacer {
   background-color: var(--main-bg-color);
 }
 
+.header {
+     background: var(--main-sec-color) !important;
+}
 
 .scroller-fzNley, .header-1tSljs, .container-iksrDt {
-    background-color: var(--main-sec-color);
+    background-color: var(--main-bg-color);
 }
 
 
@@ -68,7 +91,6 @@
 
 
 /* Set channel list to bottom */
-
 .guilds-wrapper {
   position: absolute;
   transform: rotate(-90deg) translateX(-100vh) translateY(25vh);
@@ -212,13 +234,12 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
 }
 
 .channel-members .member, #user-profile-modal .guilds .guild {
-	padding-bottom: 4px !important;
-	padding-top: 6px !important;
+	padding-bottom: 8px !important;
+	padding-top: 8px !important;
 }
 
 
 /* status picker */
-
 .popout.popout-top {
 	box-shadow: none;
 }
@@ -237,6 +258,7 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
 
 
 /* User Popout */
+
 
 .user-popout .body, .user-popout .footer, .user-popout .header {
 	background: #222;
