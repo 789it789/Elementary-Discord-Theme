@@ -10,7 +10,7 @@
 /* auto-hide channel wrapper */
 
 .channels-wrap {
-	width: 11px !important;        
+	width: 10px !important;        
 	transition: all .3s ease !important;
     }
 
@@ -25,10 +25,32 @@
 }
 
 /* set background and highlight colors of elements .container-iksrDt*/
+.own-status-dnd .container-iksrDt {
+  background: #f04747 !important;
+}
 
+.chat .jump-to-present-bar button:first-child{
+        background-color: #222;
+}
 .tooltip {
     background: #222 !important;
     color: #FFFFFF;
+}
+
+.divider.divider-red span {
+    color: transparent !important;
+    text-shadow: none !important;
+    position: relative;
+    padding: 0;
+    background-color: #222 !important;
+}
+
+.divider.divider-red span:before {
+    color: #fff;
+    content: "NEW messages";
+    position: absolute;
+    width: 100%;
+    text-align: center;
 }
 
 .headerNormal-1cioxU {
@@ -36,7 +58,7 @@
 }
 
 #user-profile-modal .header:after {
-    background-color: #222222;
+    background-color: #222;
     background-image: none;
 }
 
