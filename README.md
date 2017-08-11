@@ -10,3 +10,4 @@ Credits (ideas and snips of code):
 
 https://github.com/Inve1951/BetterDiscordStuff/blob/master/themes/horizontalServerlist.theme.css
 https://github.com/rauenzi/BetterDiscordAddons/tree/master/Themes/RadialStatus
+https://github.com/Arashiryuu - making plugin
