@@ -3,7 +3,7 @@
 ## A basic Discord theme.
 ### Some customization in the css files may be needed! You will need to change the user ID in the js file!
 
-![Discord Theme gif](http://i.imgur.com/lqHIg6Z.gif)
+![Discord Theme gif](http://i.imgur.com/D8iliA1.gif)
 ![alt text](http://i.imgur.com/902WnJM.png)
 
 
