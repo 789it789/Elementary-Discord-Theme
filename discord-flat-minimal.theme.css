@@ -21,6 +21,9 @@
     }
 
 
+#bd-customcss-detach-container, #bd-customcss-attach-controls, .CodeMirror-lines, .CodeMirror-gutter.CodeMirror-linenumbers{
+    background: #222 !important;
+}
 
 /* member and channel list */
 
@@ -28,7 +31,7 @@
     background: var(--main-bg-color);
 }
 .content-2mSKOj:hover{
-      background: var(--main-bg-color);
+    background: var(--main-bg-color);
     transition: all .2s ease !important;
     padding: 20px;
 }
@@ -38,8 +41,8 @@
      background: var(--main-bg-color);
 }
 .channel-members .member.member-status:hover {
-  background: var(--main-bg-color);
-    transition: all .2s ease !important;
+	background: var(--main-bg-color);
+	transition: all .2s ease !important;
     padding: 10px;
 }
 
@@ -154,30 +157,36 @@
   transform-origin: top left;
   height: calc(100% - var(--guild-num-count) * 5px + (var(--guild-num-count) - 1) * 15px);
 }
-.guilds-wrapper ~ div {
-    transition: all .3s ease !important;
-  height: calc(100% - var(--guild-column-count) * 10px + (var(--guild-column-count) - 1) * 15px);
 
-}
 .guilds-wrapper:hover ~ div {
-    transition: all .4s ease !important;
-  height: calc(100% - var(--guild-column-count) * 70px + (var(--guild-column-count) - 1) * 15px);
+	transition: all .4s ease !important;
+	height: calc(100% - var(--guild-column-count) * 70px + (var(--guild-column-count) - 1) * 15px);
+}
+
+.guilds-wrapper ~ div {
+	transition: all .3s ease !important;
+	height: calc(100% - var(--guild-column-count) * 10px + (var(--guild-column-count) - 1) * 15px);
+
 }
 
 .guilds .guild:not(#bd-pub-li) .guild-inner:first-child, .badge, .guild.guilds-add {
   transform: rotate(90deg);
 }
+
 .guilds-wrapper .guilds > .guild:first-child {
   margin-top: calc(12px * var(--public-button-in-use));
 }
+
 .dms {
   padding-top: calc(-8px * (var(--guild-column-count) - 1) / (var(--guild-column-count) - 1));
   margin-left: -8px;
   padding-left: calc(8px * (var(--guild-column-count) - 1) / (var(--guild-column-count) - 1));
 }
+
 .dms .guild {
   display: inline-block;
 }
+
 .app .guilds-wrapper .guilds .dms .guild {
   margin: 8px 0 0 8px;
 }
@@ -188,6 +197,7 @@
   transform-origin: 50% -25px;
   transform: rotate(90deg) translateY(calc(5px * (var(--guild-column-count) - 1) + 5px));
 }
+
 .app #bd-pub-li {
   text-transform: uppercase;
   position: absolute;
