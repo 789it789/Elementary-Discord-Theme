@@ -1,10 +1,11 @@
-# discord-theme
+# Elementary, a flat, minimal theme.
 
-## A basic Discord theme.
-### Some customization in the css files may be needed! You will need to change the user ID in the js file!
+## You will need to change the user ID in the .js file!
+### Some customization in the CSS file may be needed!
 
+![Discord Theme header](http://i.imgur.com/zsw3H6H.png)
 ![Discord Theme gif](http://i.imgur.com/D8iliA1.gif)
-![alt text](http://i.imgur.com/902WnJM.png)
+![Discord theme image](http://i.imgur.com/902WnJM.png)
 
 
 Credits (ideas and snips of code):
@@ -14,3 +15,4 @@ https://github.com/Inve1951/BetterDiscordStuff/blob/master/themes/horizontalServ
 https://github.com/rauenzi/BetterDiscordAddons/tree/master/Themes/RadialStatus
 https://github.com/Arashiryuu - making plugin
 ```
+This project is still being worked on, so not all elements are completed. Use at your own discretion.
