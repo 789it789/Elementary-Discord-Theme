@@ -5,7 +5,7 @@
 
 ![Discord Theme header](http://i.imgur.com/zsw3H6H.png)
 ![Discord Theme gif](http://i.imgur.com/D8iliA1.gif)
-![Discord theme image](http://i.imgur.com/902WnJM.png)
+![Discord theme image](http://i.imgur.com/47WGd5T.png)
 
 
 Credits (ideas and code):
