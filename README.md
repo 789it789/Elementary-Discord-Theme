@@ -3,7 +3,7 @@
 ## A basic Discord theme.
 ### Some costumization in the files may be needed!
 
-![alt text](http://i.imgur.com/XXJTlSy.gif)
+![Discord Theme gif](http://i.imgur.com/J699fqU.gif)
 ![alt text](http://i.imgur.com/902WnJM.png)
 
 
