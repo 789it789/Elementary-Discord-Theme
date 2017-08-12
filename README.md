@@ -1,7 +1,7 @@
 # discord-theme
 
 ## A basic Discord theme.
-### Some costumization in the files may be needed!
+### Some customization in the css files may be needed! You will need to change the user ID in the js file!
 
 ![Discord Theme gif](http://i.imgur.com/rwQbDjf.gif)
 ![alt text](http://i.imgur.com/902WnJM.png)
