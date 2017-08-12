@@ -7,7 +7,7 @@
 
 }
 
-/* auto-hide channel wrapper 
+/* auto-hide channel wrapper */
 
 .channels-wrap {
 	width: 10px !important;        
@@ -19,7 +19,7 @@
 	width: 220px !important;
     transition: all .4s ease !important;
     }
-*/
+
 
 
 /* member and channel list */
