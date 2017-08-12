@@ -271,7 +271,7 @@ div[class*="user-info"] div[class*="status"] {
 [class*="theme-"] div[class*="avatar-"] div[class*="Offline"],
 #user-profile-modal div[class*="offline"] {
 	border-color: #636b75 !important;
-}
+	}
 
 .channel-members .member.member-status-offline .status {
 	display: flex !important;
