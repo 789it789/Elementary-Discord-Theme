@@ -3,11 +3,11 @@
     --main-sec-color: #2b2b2b;
     --guild-column-count: 1;
 	--public-button-in-use: 0;
-    --guild-num-count: 19; /* total number of channels +friends and add channel*/
+    --guild-num-count: 19; /*adjust until servers are centered, if that doesn't work change this line: height: calc(100% - var(--guild-num-count) * 5px + (var(--guild-num-count) - 1) * 15px);*/
 
 }
 
-/* auto-hide channel wrapper */
+/* auto-hide channel wrapper 
 
 .channels-wrap {
 	width: 10px !important;        
@@ -19,14 +19,45 @@
 	width: 220px !important;
     transition: all .4s ease !important;
     }
+*/
 
 
-.container-iksrDt{
+/* member and channel list */
+
+.content-2mSKOj{
+    background: var(--main-bg-color);
+}
+.content-2mSKOj:hover{
+      background: var(--main-bg-color);
+    transition: all .2s ease !important;
+    padding: 20px;
 }
 
+
+.channel-members .member.member-status{
+     background: var(--main-bg-color);
+}
+.channel-members .member.member-status:hover {
+  background: var(--main-bg-color);
+    transition: all .2s ease !important;
+    padding: 10px;
+}
+
+
 /* set background and highlight colors of elements .container-iksrDt*/
-.own-status-dnd .container-iksrDt {
-  background: #f04747 !important;
+
+
+.new-messages-bar{
+   background: #222 !important;
+}
+
+.theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div {
+    background: #ffffff;
+    opacity: .9;
+}
+
+.theme-dark .message-group .mentioned .message-text {
+  background: var(--main-sec-color) !important;
 }
 
 .chat .jump-to-present-bar button:first-child{
@@ -43,6 +74,10 @@
     position: relative;
     padding: 0;
     background-color: #222 !important;
+}
+
+.search-bar{
+    background-color: #222;
 }
 
 .divider.divider-red span:before {
@@ -136,7 +171,7 @@
   margin-top: calc(12px * var(--public-button-in-use));
 }
 .dms {
-  padding-top: calc(7px * (var(--guild-column-count) - 1) / (var(--guild-column-count) - 1));
+  padding-top: calc(-8px * (var(--guild-column-count) - 1) / (var(--guild-column-count) - 1));
   margin-left: -8px;
   padding-left: calc(8px * (var(--guild-column-count) - 1) / (var(--guild-column-count) - 1));
 }
