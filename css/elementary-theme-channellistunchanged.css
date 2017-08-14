@@ -1,0 +1,271 @@
+:root {
+	--main-bg-color: #222;
+	--main-sec-color: #2b2b2b;
+	--guild-column-count: 1;
+	--public-button-in-use: 0;
+	--guild-num-count: 19; /*adjust until servers are centered, if that doesn't work change this line: height: calc(100% - var(--guild-num-count) * 5px + (var(--guild-num-count) - 1) * 15px);*/
+	}
+
+/* auto-hide channel wrapper */
+
+.channels-wrap {
+	width: 10px !important;        
+	transition: all .3s ease !important;
+	}
+
+
+.channels-wrap:hover {
+	width: 220px !important;
+	transition: all .4s ease !important;
+	}
+
+
+/* member and channel list */
+
+
+.content-2mSKOj {
+	background: var(--main-bg-color);
+	}
+
+.content-2mSKOj:hover {
+	background: var(--main-bg-color);
+	transition: all .2s ease !important;
+	padding: 20px;
+	}
+
+.channel-members .member.member-status {
+     background: var(--main-bg-color);
+	}
+
+.channel-members .member.member-status:hover {
+	background: var(--main-bg-color);
+	transition: all .2s ease !important;
+	padding: 10px;
+	}
+
+
+/* set background and highlight colors of elements .container-iksrDt*/
+
+
+#bd-customcss-detach-container, #bd-customcss-attach-controls, .CodeMirror-lines, .CodeMirror-gutter.CodeMirror-linenumbers {
+	background: #222 !important;
+	}
+
+.new-messages-bar {
+	background: #222 !important;
+	}
+
+.theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div {
+	background: #ffffff;
+	opacity: .9;
+	}
+
+.theme-dark .message-group .mentioned .message-text {
+	background: var(--main-sec-color) !important;
+	}
+
+.chat .jump-to-present-bar button:first-child{
+	background-color: #222;
+	}
+
+.tooltip {
+	background: #222 !important;
+	color: #FFFFFF;
+	}
+
+.divider.divider-red span {
+	color: transparent !important;
+	text-shadow: none !important;
+	position: relative;
+	padding: 0;
+	background-color: #222 !important;
+	}
+
+.search-bar {
+	background-color: #222;
+	}
+
+.divider.divider-red span:before {
+	color: #fff;
+	content: "new messages";
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	}
+
+.headerNormal-1cioxU {
+	background: rgb(34,34,34) !important;
+	}
+
+#user-profile-modal .header:after {
+	background-color: #222;
+	background-image: none;
+	}
+
+.typing, .guilds, .scroller, .section, .scrollbarGhostHairline-D_btXm, .scrollbar-11WJwo, .section-header,.add-friend, .actions, .header-info,
+.avatar-wrapper, .tab-bar-container, .tab-bar, .connected-accounts, .body-3rkFrF, .footer-2J5zqP, .quick-message, .quickMessage-28pD5Y, .marginBottom8-1mABJ4 {
+	background: rgb(34,34,34) !important;
+	}
+
+.flex-lFgbSz, .flex-3B1Tl4, .horizontal-2BEEBe, .horizontal-2VE-Fw, .flex-3B1Tl4,d.irectionRow-yNbSvJ, .justifyStart-2yIZo0, .alignStretch-1hwxMa, .noWrap-v6g9vO {
+	background: rgb(34,34,34) !important;
+	}
+
+.guilds-wrapper, .scroller, .title-wrap, .flex-spacer {
+	background-color: var(--main-bg-color);
+	}
+
+.header {
+	background: var(--main-sec-color) !important;
+	}
+
+.scroller-fzNley, .header-1tSljs, .container-iksrDt {
+	background-color: var(--main-bg-color);
+	}
+
+.divider span {
+	background: var(--main-sec-color) !important;
+	}
+
+.channel-members {
+	background: var(--main-bg-color) !important;
+	}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+	background-color: var(--main-sec-color) !important;
+	border: 3px solid var(--main-bg-color) !important;
+	}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+	background-color: var(--main-bg-color) !important;
+	border: 3px solid var(--main-bg-color) !important;
+	}
+
+.theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+	background: var(--main-bg-color) !important;
+	color: #fff !important;
+	padding: 0.3em 0.6em;
+	}
+  
+
+/*Circle status */
+
+
+div[class*="avatar-"] div[class*="status"],
+#user-profile-modal .status {
+	width:100%!important;
+	background: transparent;
+	border-radius: inherit !important;
+	height: 100%!important;
+	transition: all 200ms ease !important;
+	top: -4px !important;
+	right: -4px !important;
+	bottom: -4px !important;
+	left: -4px !important;
+	padding: 2px !important;
+	transition: all 200ms ease !important;
+	border: 2px solid #636b75 !important;
+	margin: 0 !important;
+	}
+
+div[class*="user-info"] div[class*="status"] {
+	border: none !important;
+	}
+
+[class*="theme-"] div[class*="avatar-"] div[class*="online"],
+[class*="theme-"] div[class*="avatar-"] div[class*="Online"],
+#user-profile-modal div[class*="online"]{
+	border-color: #43b581 !important;
+	}
+
+[class*="theme-"] div[class*="avatar-"] div[class*="idle"],
+[class*="theme-"] div[class*="avatar-"] div[class*="Idle"],
+#user-profile-modal div[class*="idle"] {
+	border-color: #faa61a !important;
+	}
+
+[class*="theme-"] div[class*="avatar-"] div[class*="dnd"],
+[class*="theme-"] div[class*="avatar-"] div[class*="Dnd"],
+#user-profile-modal div[class*="dnd"] {
+	border-color: #f04747 !important;
+	}
+
+[class*="theme-"] div[class*="avatar-"] div[class*="streaming"],
+[class*="theme-"] div[class*="avatar-"] div[class*="Streaming"],
+#user-profile-modal div[class*="streaming"] {
+	animation: streaming-flash 1.5s linear infinite !important;
+	border-color: #643da7 !important;
+	}
+
+[class*="theme-"] div[class*="avatar-"] div[class*="invisible"],
+[class*="theme-"] div[class*="avatar-"] div[class*="Invisible"],
+#user-profile-modal div[class*="invisible"] {
+	border-color: #747f8d !important;
+	}
+
+[class*="theme-"] div[class*="avatar-"] div[class*="offline"],
+[class*="theme-"] div[class*="avatar-"] div[class*="Offline"],
+#user-profile-modal div[class*="offline"] {
+	border-color: #636b75 !important;
+	}
+
+.channel-members .member.member-status-offline .status {
+	display: flex !important;
+	}
+
+div[class*="avatar-"] div[class*="status"].status-typing {
+	width: 100% !important;
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	right: 0 !important;
+	}
+
+div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner {
+	left: 1px !important;
+	top: 1px !important;
+	}
+
+[class*="theme-"] .user-popout .avatar-popout .status,
+[class*="theme-"] #user-profile-modal .avatar-profile .status {
+	border-width: 4px !important;
+	top: -7px !important;
+	right: -7px !important;
+	bottom: -7px !important;
+	left: -7px !important;
+	padding: 3px !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	box-sizing: content-box;
+	}
+
+.channel-members .member, #user-profile-modal .guilds .guild {
+	padding-bottom: 8px !important;
+	padding-top: 8px !important;
+	}
+
+
+/* status picker */
+
+
+.popout.popout-top {
+	box-shadow: none;
+	}
+
+.popout-menu.status-picker {
+	background: #222;
+	}
+
+.popout-menu.status-picker .popout-menu-separator, .popout-menu.status-picker .popout-menu-item .helper {
+	display: none;
+	}
+
+.popout-menu .popout-menu-item:hover {
+    background-color: #222;
+	}
+
+
+/* User Popout */
+
+
+.user-popout .body, .user-popout .footer, .user-popout .header {
+	background: #222;
+	}
