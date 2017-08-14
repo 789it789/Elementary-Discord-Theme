@@ -1,7 +1,7 @@
 # Elementary, a flat, minimal theme.
 
 ## You will need to change the user ID in the .js file!
-### Some customization in the CSS file may be needed!
+### Some customization in the CSS file may be needed if using version with channel list on the bottom!
 
 ![Discord Theme header](http://i.imgur.com/zsw3H6H.png)
 ![Discord Theme gif](http://i.imgur.com/D8iliA1.gif)
