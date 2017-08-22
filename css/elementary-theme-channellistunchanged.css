@@ -47,6 +47,10 @@
 /* set background and highlight colors of elements .container-iksrDt*/
 
 
+.friends-header, .friends-table-header {
+        background: #222 !important;
+	}
+
 #bd-customcss-detach-container, #bd-customcss-attach-controls, .CodeMirror-lines, .CodeMirror-gutter.CodeMirror-linenumbers {
 	background: #222 !important;
 	}
