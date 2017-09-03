@@ -3,8 +3,13 @@
 	--main-sec-color: #2b2b2b;
 	--guild-column-count: 1;
 	--public-button-in-use: 0;
-	--guild-num-count: 19; /*adjust until servers are centered, if that doesn't work change this line: height: calc(100% - var(--guild-num-count) * 5px + (var(--guild-num-count) - 1) * 15px);*/
 	}
+
+
+.message-group .comment .attachment a {
+    text-decoration: none;
+    color:#a4a4a4;
+}
 
 [style*="/avatars/"]
 { 
@@ -182,8 +187,6 @@ border-radius: 0px;
 	}
 
 
-
-
 /*status*/
 
 
@@ -306,9 +309,39 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
 	background: #222;
 	}
 
+.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+    background: #222;
+}
 
-/* misc */
-.message-group .comment .attachment a {
-    text-decoration: none;
-    color:#a4a4a4;
+.guilds-wrapper .guilds .guild+.guild {
+    margin-top: 8px;
+    border-radius: 0px!important;
+}
+
+
+.new-messages-indicator {
+    color: #fff;
+    opacity: 1;
+}
+.new-messages-indicator.new-messages-indicator-mention {
+    background-color: #000;
+    animation-name: new;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes new {
+    0%	{background-color: red;}
+    20%	{background-color: orange;}
+    40%	{background-color: yellow;}
+    60%	{background-color: green;}
+    80%	{background-color: blue;}
+    100% {background-color: purple;}
+}
+
+.badge {
+    background-color: #222;
+    border-radius: 0px;
+    padding: 5px 6px;
+    font-size: 16px;
 }
