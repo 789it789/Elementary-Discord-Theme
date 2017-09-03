@@ -55,7 +55,7 @@ border-radius: 0px;
 	transition: all .4s ease !important;
 	}
 
-/* Set channel list to bottom  
+/* Set channel list to bottom  */
 
 .guilds-wrapper {
 	position: absolute;
@@ -116,7 +116,6 @@ border-radius: 0px;
 	left: 240px;
 	width: calc(100% - 240px - 240px);
 	}
-*/
 
 /* member and channel list */
 
