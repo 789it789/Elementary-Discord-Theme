@@ -6,6 +6,37 @@
 	--guild-num-count: 19; /*adjust until servers are centered, if that doesn't work change this line: height: calc(100% - var(--guild-num-count) * 5px + (var(--guild-num-count) - 1) * 15px);*/
 	}
 
+[style*="/avatars/"]
+{ 
+    border-radius: 0px;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner {
+    border-radius: 0px!important;
+    background: #a4a4a4;
+}
+
+
+.guilds-wrapper .guilds .guild.selected:before {
+border-radius: 0px;
+    height: 50px;
+    margin-top: -25px;
+}
+
+.guilds-wrapper .guilds .friends-icon {
+    background: #a4a4a4;
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/89576a4bb71f927eb20e8aef987b499b.svg);
+    background-size: 32px 28px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.unread-23Kvxk {
+    border-radius: 0px!important;
+}
+
 /* auto-hide channel wrapper */
 
 .channels-wrap {
@@ -46,9 +77,8 @@
 
 /* set background and highlight colors of elements .container-iksrDt*/
 
-
 .friends-header, .friends-table-header {
-        background: #222 !important;
+    background: #222 !important;
 	}
 
 #bd-customcss-detach-container, #bd-customcss-attach-controls, .CodeMirror-lines, .CodeMirror-gutter.CodeMirror-linenumbers {
@@ -150,9 +180,11 @@
 	color: #fff !important;
 	padding: 0.3em 0.6em;
 	}
-  
 
-/*Circle status */
+
+
+
+/*status*/
 
 
 div[class*="avatar-"] div[class*="status"],
