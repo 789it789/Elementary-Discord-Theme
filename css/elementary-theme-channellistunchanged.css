@@ -305,3 +305,10 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
 .user-popout .body, .user-popout .footer, .user-popout .header {
 	background: #222;
 	}
+
+
+/* misc */
+.message-group .comment .attachment a {
+    text-decoration: none;
+    color:#a4a4a4;
+}
