@@ -21,6 +21,9 @@
     background: #a4a4a4;
 }
 
+.guilds-wrapper .guilds .guilds-error {
+    border-radius: 0px!important;
+}
 
 .guilds-wrapper .guilds .guild.selected:before {
 border-radius: 0px;
