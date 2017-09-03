@@ -28,6 +28,10 @@ border-radius: 0px;
     margin-top: -25px;
 }
 
+.guilds-wrapper .guilds .guilds-error {
+    border-radius: 0px!important;
+}
+
 .guilds-wrapper .guilds .friends-icon {
     background: #a4a4a4;
     width: 50px;
