@@ -11,6 +11,17 @@
     color:#a4a4a4;
 }
 
+
+.popout-menu {
+    background: #222;
+    -webkit-box-shadow: 0 0px 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0px 0 0 rgba(0,0,0,0);
+    border-radius: 0px;
+    overflow: hidden;
+    width: 216px;
+}
+
+
 [style*="/avatars/"]
 { 
     border-radius: 0px;
@@ -21,9 +32,6 @@
     background: #a4a4a4;
 }
 
-.guilds-wrapper .guilds .guilds-error {
-    border-radius: 0px!important;
-}
 
 .guilds-wrapper .guilds .guild.selected:before {
 border-radius: 0px;
@@ -41,6 +49,10 @@ border-radius: 0px;
     background-repeat: no-repeat;
 }
 
+.guilds-wrapper .guilds .guilds-error {
+    border-radius: 0px!important;
+}
+
 .unread-23Kvxk {
     border-radius: 0px!important;
 }
@@ -56,9 +68,7 @@ border-radius: 0px;
 .channels-wrap:hover {
 	width: 220px !important;
 	transition: all .4s ease !important;
-	}
-
-/* Set channel list to bottom  */
+	} 
 
 .guilds-wrapper {
 	position: absolute;
@@ -119,6 +129,7 @@ border-radius: 0px;
 	left: 240px;
 	width: calc(100% - 240px - 240px);
 	}
+
 
 /* member and channel list */
 
@@ -390,19 +401,7 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
     opacity: 1;
 }
 .new-messages-indicator.new-messages-indicator-mention {
-    background-color: #000;
-    animation-name: new;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes new {
-    0%	{background-color: red;}
-    20%	{background-color: orange;}
-    40%	{background-color: yellow;}
-    60%	{background-color: green;}
-    80%	{background-color: blue;}
-    100% {background-color: purple;}
+    background-color: #000 
 }
 
 .badge {
@@ -410,4 +409,81 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
     border-radius: 0px;
     padding: 5px 6px;
     font-size: 16px;
+}
+
+
+.mentioned .mention, .mentioned .mention:hover {
+  background: transparent !important;
+}
+
+.mention:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #ac00b9;
+}
+
+.message-group .comment .markup .mention, .nameHovered-28u_Fz, .nameSpeaking-3ROx9q, .nameDefault-1I0lx8 {
+  color: #00e5ff;
+  animation: rainbow 3s infinite linear;
+}
+
+@keyframes rainbow {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+.theme-dark .message-group .mentioned .message-text {
+    background: #222 !important;
+}
+
+.message-group .mentioned .message-text:after {
+    position: absolute;
+    top: 0;
+    left: -6px;
+    bottom: 0;
+    content: " ";
+    width: 2px;
+    background: #222!important;
+    border-left: 4px solid #222!important;
+    border-radius: 2px 0 0 2px;
+}
+
+
+.app, .message-group .comment .markup code.inline, .message-group .comment .markup pre code, .name-3gtcmp, .textArea-20yzAH, .button, #clockPluginClock, a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var, .quick-message, input, textarea {
+  font-family: Ubuntu Mono!important;
+}
+
+
+.message-group .sink-interactions.clickable {
+	background-color: #222;
+} 
+
+
+.channel-members-loading .heading {
+    height: 0px;
+}
+
+.channel-members-loading .heading, .channel-members-loading .member {
+    width: 240px;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+}
+
+.theme-dark .channel-members-loading {
+    background-color: #222;
+}
+
+.theme-dark .channel-members-loading .background {
+    background-color: !important;
+}
+
+.channel-members-loading .member {
+    height: 40px;
+    background-color: transparent;
 }
