@@ -487,3 +487,12 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
     height: 40px;
     background-color: transparent;
 }
+
+
+.connecting {
+    background: #222;
+}
+
+.app a, .connecting a {
+    color: #a4a4a4;
+}
