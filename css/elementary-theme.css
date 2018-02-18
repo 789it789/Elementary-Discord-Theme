@@ -29,7 +29,7 @@
 
 .guilds-wrapper .guilds .guild .guild-inner {
     border-radius: 0px!important;
-    background: #a4a4a4;
+    background: #222;
 }
 
 
@@ -40,7 +40,7 @@ border-radius: 0px;
 }
 
 .guilds-wrapper .guilds .friends-icon {
-    background: #a4a4a4;
+    background: #222;
     width: 50px;
     height: 50px;
     background-image: url(/assets/89576a4bb71f927eb20e8aef987b499b.svg);
@@ -57,81 +57,32 @@ border-radius: 0px;
     border-radius: 0px!important;
 }
 
+.theme-dark .chat form {
+    -webkit-box-shadow: 0 -1px 0 hsla(0,0%,100%,.06);
+    background-color: #222;
+}
+
 /* auto-hide channel wrapper */
 
-.channels-wrap {
+.channels-3g2vYe {
 	width: 10px !important;        
 	transition: all .3s ease !important;
 	}
 
-
-.channels-wrap:hover {
+.channels-3g2vYe:hover {
 	width: 220px !important;
 	transition: all .4s ease !important;
 	}
 
-/* Set channel list to bottom  
 
-.guilds-wrapper {
-	position: absolute;
-	transform: rotate(-90deg) translateX(-100vh) translateY(25vh);
-	transform-origin: top left;
-	height: calc(100% - 19 * 5px + (19 - 1) * 15px);
-	}
+/* fixes */
+.typing-3eiiL_{
+ background-color:#222!important;
+}
 
-.guilds-wrapper:hover ~ div {
-	transition: all .4s ease !important;
-	height: calc(100% - var(--guild-column-count) * 70px + (var(--guild-column-count) - 1) * 15px);
-	}
-
-.guilds-wrapper ~ div {
-	transition: all .3s ease !important;
-	height: calc(100% - var(--guild-column-count) * 10px + (var(--guild-column-count) - 1) * 15px);
-	}
-
-.guilds .guild:not(#bd-pub-li) .guild-inner:first-child, .badge, .guild.guilds-add {
-	transform: rotate(90deg);
-	}
-
-.guilds-wrapper .guilds > .guild:first-child {
-	margin-top: calc(12px * var(--public-button-in-use));
-	}
-
-.dms {
-	padding-top: calc(-8px * (var(--guild-column-count) - 1) / (var(--guild-column-count) - 1));
-	margin-left: -8px;
-	padding-left: calc(8px * (var(--guild-column-count) - 1) / (var(--guild-column-count) - 1));
-	}
-
-.dms .guild {
-	display: inline-block;
-	}
-
-.app .guilds-wrapper .guilds .dms .guild {
-	margin: 8px 0 0 8px;
-	}
-
-.app .guilds-wrapper .guilds .friends-online {
-	margin: 0;
-	line-height: 0;
-	transform-origin: 50% -25px;
-	transform: rotate(90deg) translateY(calc(5px * (var(--guild-column-count) - 1) + 5px));
-	}
-
-.app #bd-pub-li {
-	text-transform: uppercase;
-	position: absolute;
-	top: 5px;
-	margin: 0 auto;
-	left: calc((var(--guild-column-count) * 70px - (var(--guild-column-count) - 1) * 15px) / 2 - 25px)
-	}
-
-#files_directDownload {
-	bottom: calc(var(--guild-column-count) * 70px - (var(--guild-column-count) - 1) * 15px);
-	left: 240px;
-	width: calc(100% - 240px - 240px);
-	}
-*/
+.menu-3BZuDT{
+    background-color:#222;
+}
 
 /* member and channel list */
 
