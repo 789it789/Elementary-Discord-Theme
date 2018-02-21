@@ -13,8 +13,29 @@ background-color:#222!important;}
 
 .activityUserPopout-1nmgaw{
 background-color:#222!important;}
-/*/*/
+/*more fixes */
 
+.attachPopout-gjwHsr{
+background-color:#222!important;}
+
+.attachPopoutRow-elxASe:hover{
+background-color:#a4a4a4!important;}
+
+.category-3rCtoh{
+background-color:#222;
+color:#a4a4a4;}
+
+.emojiPicker-3g68GS{
+background-color:#222;}
+
+.search-bar-light{
+background-color:#222!important;}
+
+.search-bar-inner{
+background-color:#222!important;
+color:#a4a4a4!important;}
+
+/**/
 .message-group .comment .attachment a {
     text-decoration: none;
     color:#a4a4a4;
