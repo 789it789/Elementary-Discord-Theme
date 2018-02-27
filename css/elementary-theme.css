@@ -45,6 +45,30 @@ background-color:#222!important;}
     color:#a4a4a4;
 }
 
+/*extra*/
+.user-name{
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+.autocomplete-1TnWNR{
+background-color:#222!important;}
+
+.form-inner{
+background-color:#222!important;}
+
+.action{
+background-color:#222!important;
+color:#a4a4a4!important;}
+
+.form-actions{
+background-color:#222!important;}
+
+.btn{
+background-color:#222!important;
+color:#a4a4a4!important;
+border-style: solid;
+ border-width: 1px}
+
+/**/
 
 .avatar-small{
 background-color:#222;    border-style: solid;
