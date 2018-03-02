@@ -4,6 +4,26 @@
 	--guild-column-count: 1;
 	--public-button-in-use: 0;
 	}
+
+/*edit menu*/
+.btn-item{
+    background-color:#222;
+color:#a4a4a4;}
+.option-popout{
+background-color:#222;}
+.theme-dark .contextMenu-uoJTbz {
+        background-color:#222;
+color:#a4a4a4;
+}
+.theme-dark .item-1XYaYf:hover {
+        background-color: #222;
+    color:#a4a4a4!important;
+border-style: solid;
+ border-width: 1px
+}
+.theme-dark .itemSubMenu-3ZgIw- {
+background-color:#222;}
+
 /*misc fixes*/
 .body-3ljq11{
 background-color:#222!important;}
