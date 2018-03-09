@@ -4,6 +4,16 @@
 	--guild-column-count: 1;
 	--public-button-in-use: 0;
 	}
+/*pinned messages*/
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group{
+background-color:#222;}
+
+.theme-dark .themed-popout .header{
+background-color:#222!important;}
+
+.theme-dark .themed-popout .header .title{
+text-align:center;}
 
 /*edit menu*/
 .btn-item{
