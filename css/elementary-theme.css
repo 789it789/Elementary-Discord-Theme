@@ -38,6 +38,8 @@ border-style: solid;
 background-color:#222;}
 
 /*misc fixes*/
+.theme-dark .select-3JqNgs .Select-option {    background-color: #222;    color: #a4a4a4;}
+.theme-dark .select-3JqNgs .Select-option:hover {        background-color: #222;    color:#a4a4a4!important;border-style: solid; border-width: 1px}
 .theme-dark .body-35FeGh {    background-color: #222;}
 .theme-dark .body-_3kd4C {    background-color: #222;}
 
