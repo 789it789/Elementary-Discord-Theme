@@ -4,8 +4,38 @@
 	--guild-column-count: 1;
 	--public-button-in-use: 0;
 	}
-/*pinned messages*/
 
+.theme-dark .members-1bid1J {
+background-color:#222;}
+
+.embedFields-3qqYj3 {
+margin-top:10px;}
+
+.message-group.compact .message .timestamp {
+font-size:10px!important;}
+.message-group.compact .message .message-text .markup .user-name {
+font-size:14px;}
+
+.theme-dark .select-3JqNgs .Select-option {
+    background-color: #222;
+    color: #a4a4a4;
+}
+
+.theme-dark .select-3JqNgs .Select-option:hover {
+        background-color: #222;
+    color:#a4a4a4!important;
+border-style: solid;
+ border-width: 1px
+}
+.theme-dark .add-game-popout {
+    background-color: #222;
+}
+.theme-dark .body-35FeGh {
+    background-color: #222;
+}
+.theme-dark .body-_3kd4C {
+    background-color: #222;
+}
 .theme-dark .messages-popout-wrap .messages-popout .message-group{
 background-color:#222;}
 
@@ -18,7 +48,6 @@ text-align:center;}
 .theme-dark .themed-popout .footer {
 background-color:#222;}
 
-/*edit menu*/
 .btn-item{
     background-color:#222;
 color:#a4a4a4;}
@@ -36,13 +65,7 @@ border-style: solid;
 }
 .theme-dark .itemSubMenu-3ZgIw- {
 background-color:#222;}
-
 /*misc fixes*/
-.theme-dark .select-3JqNgs .Select-option {    background-color: #222;    color: #a4a4a4;}
-.theme-dark .select-3JqNgs .Select-option:hover {        background-color: #222;    color:#a4a4a4!important;border-style: solid; border-width: 1px}
-.theme-dark .body-35FeGh {    background-color: #222;}
-.theme-dark .body-_3kd4C {    background-color: #222;}
-
 .body-3ljq11{
 background-color:#222!important;}
 .footer-2wFs91{
@@ -87,7 +110,8 @@ background-color:#222!important;}
 background-color:#222!important;}
 /*extra*/
 .user-name{
-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
 .autocomplete-1TnWNR{
 background-color:#222!important;
@@ -144,6 +168,7 @@ background-color:#222;    border-style: solid;
     overflow: hidden;
     width: 216px;
 }
+
 
 [style*="/avatars/"]
 { 
@@ -234,14 +259,15 @@ border-style: solid;
 	padding: 20px;
 	}
 
-.channel-members .member.member-status {
-     background: var(--main-bg-color);
+/*.channel-members .member.member-status */
+.content-3JzEqq{
+     background-color: var(--main-bg-color);
 	}
 
-.channel-members .member.member-status:hover {
-	background: var(--main-bg-color);
+.content-3JzEqq:hover {
+	background-color: #222!important;
 	transition: all .2s ease !important;
-	padding: 10px;
+	padding: 20px;
 	}
 
 
@@ -498,7 +524,7 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
     background-color: #222;
     border-radius: 0px;
     padding: 5px 6px;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 
@@ -545,12 +571,7 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
 
 
 .app, .message-group .comment .markup code.inline, .message-group .comment .markup pre code, .name-3gtcmp, .textArea-20yzAH, .button, #clockPluginClock, a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var, .quick-message, input, textarea {
-  font-family: Helvetica!important;
-}
-
-
-.channel-members-loading .heading {
-    height: 0px;
+  font-family: 'Helvetica'!important;
 }
 
 .channel-members-loading .heading, .channel-members-loading .member {
