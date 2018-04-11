@@ -4,7 +4,17 @@
 	--guild-column-count: 1;
 	--public-button-in-use: 0;
 	}
-.theme-dark .invite-CTGItT {background-color:#222;}
+
+.theme-dark .embedInner-t4ag7g{
+background-color:#222;}
+
+.theme-dark .accountBtnInner-3zsU2z {
+background-color:#222;
+border-color:#a4a4a4;}
+
+.theme-dark .invite-CTGItT {
+background-color:#222;}
+
 .theme-dark .members-1bid1J {
 background-color:#222;}
 
