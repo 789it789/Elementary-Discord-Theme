@@ -5,6 +5,12 @@
 	--public-button-in-use: 0;
 	}
 
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq{
+background-color:#222;}
+
+.text-1rI06-::after {
+    content: " ";
+}
 .theme-dark .embedInner-t4ag7g{
 background-color:#222;}
 
