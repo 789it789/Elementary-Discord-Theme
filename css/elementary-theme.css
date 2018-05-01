@@ -4,13 +4,21 @@
 	--guild-column-count: 1;
 	--public-button-in-use: 0;
 	}
-
-.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq{
+/*fix*/.theme-dark .members-1998pB {
+    background-color: #222;
+}.theme-dark .typing-2GQL18 {
+    background-color: #222;
+}
+.header-2o-2hj {
+background-color:#222;}
+.channels-Ie2l6A {
+background-color:#222!important;}
+.scroller-2v3d_F{
+background-color:#222;
+}
+.theme-dark .title-3qD0b-{
 background-color:#222;}
 
-.text-1rI06-::after {
-    content: " ";
-}
 .theme-dark .embedInner-t4ag7g{
 background-color:#222;}
 
