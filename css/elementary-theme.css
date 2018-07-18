@@ -5,12 +5,41 @@
 	--public-button-in-use: 0;
 
 }
+.theme-dark .search .search-bar {
+    background-color: #222;
+}
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+    background-color: #222;
+    color: #fff;
+        border-width: 2px;
+    border-color: #3e3e3e;
+    border-style: solid;
+}
+.theme-dark .quickMessage-1yeL4E {
+    background-color: #222;
+    border-color: #3e3e3e;
+    color: hsla(0,0%,100%,.7);
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: #222;
+    color: #a4a4a4;
+}
+.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+    background-color: #222;
+    border-width: 2px;
+    border-color: #3e3e3e;
+    border-style: solid;
+}
+.theme-dark .item-1GzJrl {
+    color: hsla(0,0%,100%,.6);
+    background-color: #222 !important;
+}
 .attachButton-1UjEWA {
     padding: 10px;
     background-color: #222;
 }
 .theme-dark .textArea-2Spzkt {
-	color:#3e3e3e!important;
+	color:#a4a4a4!important;
     background-color: #222;
 }
 /*fix*/.theme-dark .members-1998pB {
@@ -245,12 +274,12 @@ border-radius: 0px;
 
 /* auto-hide channel wrapper */
 
-.channels-3g2vYe {
+.channels-Ie2l6A {
 	width: 10px !important;        
 	transition: all .3s ease !important;
 	}
 
-.channels-3g2vYe:hover {
+.channels-Ie2l6A:hover {
 	width: 220px !important;
 	transition: all .4s ease !important;
 	}
