@@ -3,7 +3,16 @@
 	--main-sec-color: #2b2b2b;
 	--guild-column-count: 1;
 	--public-button-in-use: 0;
-	}
+
+}
+.attachButton-1UjEWA {
+    padding: 10px;
+    background-color: #222;
+}
+.theme-dark .textArea-2Spzkt {
+	color:#3e3e3e!important;
+    background-color: #222;
+}
 /*fix*/.theme-dark .members-1998pB {
     background-color: #222;
 }.theme-dark .typing-2GQL18 {
@@ -397,9 +406,8 @@ border-style: solid;
 
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
 	background: var(--main-bg-color) !important;
-	color: #fff !important;
-	padding: 0.3em 0.6em;
-	}
+	
+}
 
 
 
@@ -407,14 +415,15 @@ border-style: solid;
 /*status*/
 
 
+/*
 div[class*="avatar-"] div[class*="status"],
 #user-profile-modal .status {
 	width:100%!important;
 	background: transparent;
-	border-radius: inherit !important;
+	border-radius: 0 !important;
 	height: 100%!important;
 	transition: all 200ms ease !important;
-	top: -4px !important;
+top: -4px !important;
 	right: -4px !important;
 	bottom: -4px !important;
 	left: -4px !important;
@@ -423,7 +432,7 @@ div[class*="avatar-"] div[class*="status"],
 	border: 2px solid #636b75 !important;
 	margin: 0 !important;
 	}
-
+*/
 div[class*="user-info"] div[class*="status"] {
 	border: none !important;
 	}
