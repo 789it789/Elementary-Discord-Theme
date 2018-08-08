@@ -1,9 +1,21 @@
 :root {
     --main-bg-color: #222;
     --main-sec-color: #2b2b2b;
-    --guild-column-count: 1;
-    --public-button-in-use: 0;
 }
+
+/* auto-hide channel wrapper */
+
+/*
+.channels-Ie2l6A {
+	width: 10px !important;        
+	transition: all .3s ease !important;
+	}
+
+.channels-Ie2l6A:hover {
+	width: 220px !important;
+	transition: all .4s ease !important;
+	}
+*/
 
 /* fixes */
 .app button {
@@ -352,20 +364,6 @@
     background-color: #222;
 }
 
-/* auto-hide channel wrapper */
-
-/*
-.channels-Ie2l6A {
-	width: 10px !important;        
-	transition: all .3s ease !important;
-	}
-
-.channels-Ie2l6A:hover {
-	width: 220px !important;
-	transition: all .4s ease !important;
-	}
-
-
 /* fixes */
 .private-channels .channel.selected a {
     background-color: #222!important;
@@ -526,15 +524,15 @@ d.irectionRow-yNbSvJ,
 
 /*status*/
 
-/*
+
 div[class*="avatar-"] div[class*="status"],
 #user-profile-modal .status {
 	width:100%!important;
-	background: transparent;
+	background:  none;
 	border-radius: 0 !important;
 	height: 100%!important;
 	transition: all 200ms ease !important;
-top: -4px !important;
+    top: -4px !important;
 	right: -4px !important;
 	bottom: -4px !important;
 	left: -4px !important;
@@ -542,8 +540,9 @@ top: -4px !important;
 	transition: all 200ms ease !important;
 	border: 2px solid #636b75 !important;
 	margin: 0 !important;
+	pointer-events: none;
 	}
-*/
+
 div[class*="user-info"] div[class*="status"] {
     border: none !important;
 }
@@ -691,70 +690,14 @@ div[class*="avatar-"] div[class*="status"].status-typing .spinner .spinner-inner
 .app,
 .message-group .comment .markup code.inline,
 .message-group .comment .markup pre code,
-.name-3gtcmp,
-.textArea-20yzAH,
-.button,
-#clockPluginClock,
-a,
-abbr,
-acronym,
-address,
-applet,
-big,
-blockquote,
-body,
-caption,
-cite,
-code,
-dd,
-del,
-dfn,
-div,
-dl,
-dt,
-em,
-fieldset,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-html,
-iframe,
-img,
-ins,
-kbd,
-label,
-legend,
-li,
-object,
-ol,
-p,
-pre,
-q,
-s,
-samp,
-small,
-span,
-strike,
-strong,
-sub,
-sup,
-table,
-tbody,
-td,
-tfoot,
-th,
-thead,
-tr,
-tt,
-ul,
-var,
-.quick-message,
-input,
-textarea {
+.name-3gtcmp, .textArea-20yzAH, .button, #clockPluginClock,
+a, abbr, acronym, address, applet, big, blockquote,
+body, caption, cite, code, dd, del, dfn, div, dl,
+dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html,
+iframe, img, ins, kbd, label, legend, li, object,
+ol, p, pre, q, s, samp, small, span, strike, strong,
+sub, sup, table, tbody, td, tfoot, th, thead, tr,
+tt, ul, var, .quick-message, input, textarea {
     font-style: normal !important;
     font-weight: 300 !important;
 }
