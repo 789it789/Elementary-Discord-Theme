@@ -5,6 +5,9 @@
 	--public-button-in-use: 0;
 
 }
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3 {
+    background-color: #222;
+}
 .theme-dark .search .search-bar {
     background-color: #222;
 }
