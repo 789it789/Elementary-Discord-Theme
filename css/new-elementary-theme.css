@@ -18,6 +18,12 @@
 */
 
 /* fixes */
+.container-PNkimc {
+    background-color: #222;
+    contain: layout;
+    min-height: 0;
+    position: relative;
+}
 .app button {
     cursor: pointer;
     color: #a4a4a4;
