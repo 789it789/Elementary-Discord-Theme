@@ -18,6 +18,11 @@
 */
 
 /* fixes */
+.theme-dark .attachPopout-1n-ZKM {
+    background-color: #222;
+    border: solid;
+    border-color: #3e3e3e;
+}
 .container-PNkimc {
     background-color: #222;
     contain: layout;
